@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353ADCD1CDFB09B00AFE20B /* Penguin.swift */; };
 		13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */; };
 		13ED31D41CDB13FB00C9BE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31D31CDB13FB00C9BE5F /* ViewController.swift */; };
 		13ED31D71CDB13FB00C9BE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ED31D51CDB13FB00C9BE5F /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1353ADCD1CDFB09B00AFE20B /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
 		13ED31CE1CDB13FB00C9BE5F /* A Trip to the Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Trip to the Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13ED31D31CDB13FB00C9BE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1353ADCC1CDFB07500AFE20B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1353ADCD1CDFB09B00AFE20B /* Penguin.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		13ED31C51CDB13FB00C9BE5F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 			children = (
 				13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */,
 				13ED31D31CDB13FB00C9BE5F /* ViewController.swift */,
+				1353ADCC1CDFB07500AFE20B /* Model */,
 				13ED31D51CDB13FB00C9BE5F /* Main.storyboard */,
 				13ED31DB1CDB13FB00C9BE5F /* Assets.xcassets */,
 				13ED31DD1CDB13FB00C9BE5F /* LaunchScreen.storyboard */,
@@ -262,6 +273,7 @@
 			files = (
 				13ED31D41CDB13FB00C9BE5F /* ViewController.swift in Sources */,
 				13ED31DA1CDB13FB00C9BE5F /* A_Trip_to_the_Zoo.xcdatamodeld in Sources */,
+				1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */,
 				13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +507,7 @@
 				13ED31FB1CDB13FB00C9BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13ED31FC1CDB13FB00C9BE5F /* Build configuration list for PBXNativeTarget "A Trip to the ZooTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				13ED31FE1CDB13FB00C9BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13ED31FF1CDB13FB00C9BE5F /* Build configuration list for PBXNativeTarget "A Trip to the ZooUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				13ED32011CDB13FB00C9BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
