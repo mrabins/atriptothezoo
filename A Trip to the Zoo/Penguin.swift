@@ -14,4 +14,11 @@ struct Penguin {
     var name: String
     var species: String
     var image: UIImage
+    
+    
+    
+    
+    func speak() {
+         print("Penguin: Trump Trump")
+    }
 }

@@ -21,12 +21,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         view.backgroundColor = UIColor.lightGrayColor()
-        var myPenguin = Penguin(age: 3, name: "Wheezy", species: "Gentoo Penguin", image: UIImage(named: "GentooPenguin.jpg")!)
+        let myPenguin = Penguin(age: 3, name: "Wheezy", species: "Gentoo Penguin", image: UIImage(named: "GentooPenguin.jpg")!)
         
         nameLabel.text = myPenguin.name
         speciesLabel.text = myPenguin.species
         animalImage.image = myPenguin.image
         
+        myPenguin.speak()
 
     }
 
