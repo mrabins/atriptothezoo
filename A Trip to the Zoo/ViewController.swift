@@ -27,7 +27,14 @@ class ViewController: UIViewController {
         speciesLabel.text = myPenguin.species
         animalImage.image = myPenguin.image
         
-        myPenguin.speak()
+        myPenguin.speakANumberOfTimes(4, isLoud: false)
+        
+//        myPenguin.trumpANumberOfTimes(5)
+        
+//        myPenguin.speak()
+        
+        let ageOfPenguinInHumanYears = myPenguin.ageInPenguinYearsFromHumanYears()
+        print(ageOfPenguinInHumanYears)
 
     }
 
