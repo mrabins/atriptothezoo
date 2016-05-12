@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335CCE01CE53ED400F10B44 /* Animal.swift */; };
 		1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353ADCD1CDFB09B00AFE20B /* Penguin.swift */; };
 		13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */; };
 		13ED31D41CDB13FB00C9BE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31D31CDB13FB00C9BE5F /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1335CCE01CE53ED400F10B44 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		1353ADCD1CDFB09B00AFE20B /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
 		13ED31CE1CDB13FB00C9BE5F /* A Trip to the Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Trip to the Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1353ADCD1CDFB09B00AFE20B /* Penguin.swift */,
+				1335CCE01CE53ED400F10B44 /* Animal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				13ED31DA1CDB13FB00C9BE5F /* A_Trip_to_the_Zoo.xcdatamodeld in Sources */,
 				1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */,
 				13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */,
+				1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

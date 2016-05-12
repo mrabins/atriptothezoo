@@ -26,7 +26,7 @@ struct Penguin {
     }
     
     func speakANumberOfTimes(numberOfTimes: Int, isLoud: Bool) {
-        for var speakTimes = 1; speakTimes <= numberOfTimes; speakTimes++ {
+        for var speakTimes = 1; speakTimes <= numberOfTimes; speakTimes += 1 {
             if isLoud {
                 speak()
             } else {
@@ -39,5 +39,13 @@ struct Penguin {
     func ageInPenguinYearsFromHumanYears() -> Int {
         return age * 3
     }
+    
+    func randomFact() -> String {
+        let randomNumber = Int(arc4random_uniform(UInt32(3)))
+        
+        let randomFactsArray = ["All 17 species of penguins are natually found exclusively in the Souther Hemisphere", "Penguins strinking coloring is a matter of camouflage", "Unlike most birds, which lose and replace a few feathers at a time, penguins molt all at once"]
+        return randomFactsArray[randomNumber]
+ }
 }
+
 

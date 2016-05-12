@@ -33,8 +33,18 @@ class ViewController: UIViewController {
         
 //        myPenguin.speak()
         
-        let ageOfPenguinInHumanYears = myPenguin.ageInPenguinYearsFromHumanYears()
-        print(ageOfPenguinInHumanYears)
+//        let ageOfPenguinInHumanYears = myPenguin.ageInPenguinYearsFromHumanYears()
+//        print(ageOfPenguinInHumanYears)
+        
+        funFactLabel.text = myPenguin.randomFact()
+        
+        let animalInstance = Animal()
+        animalInstance.speak()
+        animalInstance.randomFact()
+        
+        
+        
+        
         
 
     }
