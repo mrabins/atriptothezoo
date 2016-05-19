@@ -11,6 +11,10 @@ import UIKit
 
 class Animal {
     
+    var bodyStatistics = BodyStatistics()
+    var personalInformation = PersonalInformation()
+    
+    
     func speak() {
         print("Animal: can't speak yet")
     }
@@ -22,3 +26,6 @@ class Animal {
     
     
 }
+
+
+

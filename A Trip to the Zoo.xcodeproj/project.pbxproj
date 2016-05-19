@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131F2F121CEE7A77003858CD /* BodyStatistics .swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F111CEE7A77003858CD /* BodyStatistics .swift */; };
+		131F2F141CEE7C6B003858CD /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F131CEE7C6B003858CD /* PersonalInformation.swift */; };
 		1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335CCE01CE53ED400F10B44 /* Animal.swift */; };
 		1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1353ADCD1CDFB09B00AFE20B /* Penguin.swift */; };
 		13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131F2F111CEE7A77003858CD /* BodyStatistics .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BodyStatistics .swift"; sourceTree = "<group>"; };
+		131F2F131CEE7C6B003858CD /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		1335CCE01CE53ED400F10B44 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		1353ADCD1CDFB09B00AFE20B /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
 		13ED31CE1CDB13FB00C9BE5F /* A Trip to the Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Trip to the Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				1353ADCD1CDFB09B00AFE20B /* Penguin.swift */,
+				131F2F111CEE7A77003858CD /* BodyStatistics .swift */,
 				1335CCE01CE53ED400F10B44 /* Animal.swift */,
+				131F2F131CEE7C6B003858CD /* PersonalInformation.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 				1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */,
 				13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */,
 				1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */,
+				131F2F121CEE7A77003858CD /* BodyStatistics .swift in Sources */,
+				131F2F141CEE7C6B003858CD /* PersonalInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

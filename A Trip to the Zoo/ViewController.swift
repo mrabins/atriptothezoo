@@ -41,7 +41,8 @@ class ViewController: UIViewController {
         let animalInstance = Animal()
         animalInstance.speak()
         animalInstance.randomFact()
-        
+        print(animalInstance.bodyStatistics.height)
+        print(animalInstance.personalInformation.name)
         
         
         
