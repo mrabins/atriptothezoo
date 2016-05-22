@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130102B91CF2653A00407A4A /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102B81CF2653A00407A4A /* Tiger.swift */; };
 		131F2F121CEE7A77003858CD /* BodyStatistics .swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F111CEE7A77003858CD /* BodyStatistics .swift */; };
 		131F2F141CEE7C6B003858CD /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F131CEE7C6B003858CD /* PersonalInformation.swift */; };
 		1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335CCE01CE53ED400F10B44 /* Animal.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130102B81CF2653A00407A4A /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		131F2F111CEE7A77003858CD /* BodyStatistics .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BodyStatistics .swift"; sourceTree = "<group>"; };
 		131F2F131CEE7C6B003858CD /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		1335CCE01CE53ED400F10B44 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				131F2F111CEE7A77003858CD /* BodyStatistics .swift */,
 				1335CCE01CE53ED400F10B44 /* Animal.swift */,
 				131F2F131CEE7C6B003858CD /* PersonalInformation.swift */,
+				130102B81CF2653A00407A4A /* Tiger.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ED31D41CDB13FB00C9BE5F /* ViewController.swift in Sources */,
+				130102B91CF2653A00407A4A /* Tiger.swift in Sources */,
 				13ED31DA1CDB13FB00C9BE5F /* A_Trip_to_the_Zoo.xcdatamodeld in Sources */,
 				1353ADCE1CDFB09B00AFE20B /* Penguin.swift in Sources */,
 				13ED31D21CDB13FB00C9BE5F /* AppDelegate.swift in Sources */,

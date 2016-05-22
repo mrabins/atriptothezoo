@@ -38,12 +38,16 @@ class ViewController: UIViewController {
         
         funFactLabel.text = myPenguin.randomFact()
         
-        let animalInstance = Animal()
-        animalInstance.speak()
-        animalInstance.randomFact()
-        print(animalInstance.bodyStatistics.height)
-        print(animalInstance.personalInformation.name)
-        
+//        let animalInstance = Animal()
+//        animalInstance.speak()
+//        animalInstance.randomFact()
+//        print(animalInstance.bodyStatistics.height)
+//        print(animalInstance.personalInformation.name)
+//        
+
+        let myTiger = Tiger()
+        myTiger.speak()
+        print(myTiger.randomFact())
         
         
         
