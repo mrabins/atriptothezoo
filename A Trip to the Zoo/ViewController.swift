@@ -45,9 +45,8 @@ class ViewController: UIViewController {
 //        print(animalInstance.personalInformation.name)
 //        
 
-        let myTiger = Tiger()
-        myTiger.speak()
-        print(myTiger.randomFact())
+        let myTiger = Factory.createTiger()
+        print(myTiger.personalInformation.name)
         
         
         

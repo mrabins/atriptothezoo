@@ -23,6 +23,11 @@ class Animal {
         return "No Fact Available at this time"
     }
     
+    func returnImage(animalName: String) -> UIImage? {
+        let animalNumber = Int(arc4random_uniform(UInt32(2)) + 1 )
+        let imageName = animalName + animalNumber.description + ".jpeg"
+        return UIImage(named: imageName)
+    }
     
     
 }
