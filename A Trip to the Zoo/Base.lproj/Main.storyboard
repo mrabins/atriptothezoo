@@ -42,7 +42,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="wAq-HR-p1r">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="z6j-lf-HyQ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="z6j-lf-HyQ">
+                            <connections>
+                                <action selector="nextBarButtonItemPressed:" destination="BYZ-38-t0r" id="BTN-r0-5Kl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="animalImage" destination="jkM-2B-9Hr" id="BoX-4n-Y9Q"/>

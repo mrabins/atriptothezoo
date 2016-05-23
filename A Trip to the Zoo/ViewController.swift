@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var speciesLabel: UILabel!
     @IBOutlet weak var funFactLabel: UILabel!
     
+    var animals: [Animal] = []
+    var currentAnimalIndex = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -48,8 +51,14 @@ class ViewController: UIViewController {
         let myTiger = Factory.createTiger()
         print(myTiger.personalInformation.name)
         
+        let elephantInstance = Factory.createElephant()
+        elephantInstance.speak()
+        let lionInstance = Factory.createLion()
+        let lionCubInstance = Factory.createLionCub()
+        lionCubInstance.speak()
         
-        
+        animals = [myTiger, elephantInstance, lionInstance, lionCubInstance]
+
 
     }
 
@@ -60,8 +69,34 @@ class ViewController: UIViewController {
 
     
     @IBAction func nextBarButtonItemPressed(sender: UIBarButtonItem) {
+        calculateAnimal()
+        updateView()
         
     }
+    
+    func updateView() {
+        let currentAnimal = animals[currentAnimalIndex]
+        
+        UIView.animateWithDuration(2) { () -> Void in
+            self.nameLabel.text = currentAnimal.personalInformation.name
+            self.speciesLabel.text = currentAnimal.personalInformation.species
+            self.animalImage.image = currentAnimal.personalInformation.image
+            self.funFactLabel.text = currentAnimal.randomFact()
+        }
+        
+      
+    }
+    
+    func calculateAnimal () {
+    
+        if currentAnimalIndex == animals.count - 1 {
+            currentAnimalIndex = 0
+        } else {
+            currentAnimalIndex = currentAnimalIndex + 1
+        }
+        
+    }
+    
 
 }
 

@@ -10,7 +10,7 @@ import Foundation
 
 class Factory {
     
-    class func createTiger () -> Tiger {
+    class func createTiger() -> Tiger {
         let tiger = Tiger()
         tiger.personalInformation.image = tiger.returnImage("Tiger")
         tiger.personalInformation.species = "Bengal"
@@ -18,5 +18,36 @@ class Factory {
         tiger.bodyStatistics.height = 100
         
         return tiger
+    }
+    
+    class func createElephant() -> Elephant {
+        let elephant = Elephant()
+        elephant.personalInformation.image = elephant.returnImage("Elephant")
+        elephant.personalInformation.species = "African"
+        elephant.personalInformation.name = "Babar"
+        elephant.bodyStatistics.height = 390
+        
+        return elephant
+    }
+    
+    class func createLion() -> Lion {
+        let lion = Lion()
+        lion.personalInformation.image = lion.returnImage("Lion")
+        lion.personalInformation.species = "Barbary"
+        lion.personalInformation.name = "Mufasa"
+        lion.bodyStatistics.height = 120
+        
+        return lion
+        
+    }
+    class func createLionCub() -> LionCub {
+        let lionCub = LionCub()
+        lionCub.personalInformation.image = lionCub.returnImage("LionCub")
+        lionCub.personalInformation.species = "Cave Lion"
+        lionCub.personalInformation.name = "Simba"
+        lionCub.bodyStatistics.height = 50
+        
+        return lionCub
+        
     }
 }

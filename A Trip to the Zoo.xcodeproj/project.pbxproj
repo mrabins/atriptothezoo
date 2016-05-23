@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		130102B91CF2653A00407A4A /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102B81CF2653A00407A4A /* Tiger.swift */; };
 		130102BB1CF26C7900407A4A /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102BA1CF26C7900407A4A /* Factory.swift */; };
+		130102BD1CF27D8600407A4A /* Elephant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102BC1CF27D8600407A4A /* Elephant.swift */; };
+		130102BF1CF2842700407A4A /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102BE1CF2842700407A4A /* Lion.swift */; };
+		130102C11CF2864B00407A4A /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130102C01CF2864B00407A4A /* LionCub.swift */; };
 		131F2F121CEE7A77003858CD /* BodyStatistics .swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F111CEE7A77003858CD /* BodyStatistics .swift */; };
 		131F2F141CEE7C6B003858CD /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F2F131CEE7C6B003858CD /* PersonalInformation.swift */; };
 		1335CCE11CE53ED400F10B44 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1335CCE01CE53ED400F10B44 /* Animal.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		130102B81CF2653A00407A4A /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		130102BA1CF26C7900407A4A /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		130102BC1CF27D8600407A4A /* Elephant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elephant.swift; sourceTree = "<group>"; };
+		130102BE1CF2842700407A4A /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		130102C01CF2864B00407A4A /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 		131F2F111CEE7A77003858CD /* BodyStatistics .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BodyStatistics .swift"; sourceTree = "<group>"; };
 		131F2F131CEE7C6B003858CD /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		1335CCE01CE53ED400F10B44 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -91,6 +97,10 @@
 		1353ADCC1CDFB07500AFE20B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				130102BC1CF27D8600407A4A /* Elephant.swift */,
+				130102BA1CF26C7900407A4A /* Factory.swift */,
+				130102C01CF2864B00407A4A /* LionCub.swift */,
+				130102BE1CF2842700407A4A /* Lion.swift */,
 				1353ADCD1CDFB09B00AFE20B /* Penguin.swift */,
 				131F2F111CEE7A77003858CD /* BodyStatistics .swift */,
 				1335CCE01CE53ED400F10B44 /* Animal.swift */,
@@ -125,7 +135,6 @@
 			children = (
 				13ED31D11CDB13FB00C9BE5F /* AppDelegate.swift */,
 				13ED31D31CDB13FB00C9BE5F /* ViewController.swift */,
-				130102BA1CF26C7900407A4A /* Factory.swift */,
 				1353ADCC1CDFB07500AFE20B /* Model */,
 				13ED31D51CDB13FB00C9BE5F /* Main.storyboard */,
 				13ED31DB1CDB13FB00C9BE5F /* Assets.xcassets */,
@@ -286,6 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130102C11CF2864B00407A4A /* LionCub.swift in Sources */,
+				130102BF1CF2842700407A4A /* Lion.swift in Sources */,
+				130102BD1CF27D8600407A4A /* Elephant.swift in Sources */,
 				13ED31D41CDB13FB00C9BE5F /* ViewController.swift in Sources */,
 				130102B91CF2653A00407A4A /* Tiger.swift in Sources */,
 				13ED31DA1CDB13FB00C9BE5F /* A_Trip_to_the_Zoo.xcdatamodeld in Sources */,
